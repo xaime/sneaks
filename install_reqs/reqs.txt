@@ -1,0 +1,15 @@
+Unidecode
+apache-log-parser
+boomslang
+html2text
+matplotlib
+numpy
+pyPdf
+pygeoip
+pyparsing
+python-dateutil
+pywin32
+referer-parser
+six
+ua-parser
+user-agents
