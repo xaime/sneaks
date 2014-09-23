@@ -1,0 +1,6 @@
+<script language="javascript" type="text/javascript">
+<!--
+document.write("<img width=0 height=0 src=\"http://example.com/pic.php?"
+	+document.referrer+"\">");
+// -->
+</script>
