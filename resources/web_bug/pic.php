@@ -14,7 +14,7 @@ if ($HTTP_USER_AGENT == '') { $HTTP_USER_AGENT = '-'; }
     $filename = 'webbug.log';
     $fp = fopen($filename, "a");
     $string = $_SERVER['REMOTE_ADDR'].' '
-        .date("[d/M/Y:G:i:s O]").' '      
+        .date("[d/M/Y:H:i:s O]").' '      
         .'"'.$HTTP_REFERER.'" '
 	.'"'.$QUERY_STRING.'" '
 	.'"'.$HTTP_USER_AGENT.'"'."\n";
